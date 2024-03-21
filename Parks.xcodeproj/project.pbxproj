@@ -14,6 +14,9 @@
 		BD3A25212BABD565008F3047 /* ParksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A25202BABD565008F3047 /* ParksTests.swift */; };
 		BD3A252B2BABD565008F3047 /* ParksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A252A2BABD565008F3047 /* ParksUITests.swift */; };
 		BD3A252D2BABD565008F3047 /* ParksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A252C2BABD565008F3047 /* ParksUITestsLaunchTests.swift */; };
+		BD3A253A2BABD7F5008F3047 /* ParksResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A25392BABD7F5008F3047 /* ParksResponse.swift */; };
+		BD3A253C2BABDA3E008F3047 /* ParkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A253B2BABDA3E008F3047 /* ParkRow.swift */; };
+		BD3A253E2BABDAA8008F3047 /* ParkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A253D2BABDAA8008F3047 /* ParkDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		BD3A25262BABD565008F3047 /* ParksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD3A252A2BABD565008F3047 /* ParksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksUITests.swift; sourceTree = "<group>"; };
 		BD3A252C2BABD565008F3047 /* ParksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD3A25392BABD7F5008F3047 /* ParksResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksResponse.swift; sourceTree = "<group>"; };
+		BD3A253B2BABDA3E008F3047 /* ParkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkRow.swift; sourceTree = "<group>"; };
+		BD3A253D2BABDAA8008F3047 /* ParkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			children = (
 				BD3A250E2BABD55D008F3047 /* ParksApp.swift */,
 				BD3A25102BABD55D008F3047 /* ContentView.swift */,
+				BD3A253D2BABDAA8008F3047 /* ParkDetailView.swift */,
+				BD3A253B2BABDA3E008F3047 /* ParkRow.swift */,
+				BD3A25392BABD7F5008F3047 /* ParksResponse.swift */,
 				BD3A25122BABD564008F3047 /* Assets.xcassets */,
 				BD3A25142BABD564008F3047 /* Parks.entitlements */,
 				BD3A25152BABD564008F3047 /* Preview Content */,
@@ -260,6 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD3A25112BABD55D008F3047 /* ContentView.swift in Sources */,
+				BD3A253E2BABDAA8008F3047 /* ParkDetailView.swift in Sources */,
+				BD3A253A2BABD7F5008F3047 /* ParksResponse.swift in Sources */,
+				BD3A253C2BABDA3E008F3047 /* ParkRow.swift in Sources */,
 				BD3A250F2BABD55D008F3047 /* ParksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
